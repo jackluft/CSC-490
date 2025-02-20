@@ -7,7 +7,6 @@ from queue import Queue
 from colorama import Fore
 import argparse
 import random
-import keyboard
 import signal
 
 stop_threads = False
