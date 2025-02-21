@@ -28,7 +28,7 @@ Arguments:
 --port: The range of the port scan (e.g., --port 80:100)
 --attack: This will skip the port scan and preform the TCP SYN flood attack on the provided port number.
 Note: port and attack arguments CAN NOT both be provided.
------------------------------------------------------------
+
 
 Ethical Considerations
 -----------------------------------------------------------
