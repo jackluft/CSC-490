@@ -1,22 +1,20 @@
-# CSC-490- Midterm Assignment
---------------------------------------------------
+# CSC-490- Midterm Assignment: 
 This script simulates a Distributed Denial-of-Service (DDoS) using Scapy. The program starts off by preforming a port scan on the provided attack IP. After the scan has been completed it will then list all the open ports where a attack can be preformed. The user will then have the option to select a open port. Once an open port has been selected the program will launch a TCP SYN flood attack on the attacked machine.
------------------------------------------------------------
 ## Features include: <br>
 . Multi-threaded attack simulation <br>
 . Randomized packet generation <br>
 . Port Scanning <br>
 . TCP SYN flooding <br>
------------------------------------------------------------
-REQUIRMENTS: <br>
+
+## REQUIRMENTS: <br>
 . Python 3.x <br>
 . scapy  <br>
 . tqdm <br> 
 . colorama <br>
 
-Usage:
------------------------------------------------------------
-Run the script with the following command:
+## Usage:
+
+Run the script with the following command: <br>
 $python ddos.py <target_ip>
 <br>
 $python ddos.py <target_ip> --port <startPort:endPort>
